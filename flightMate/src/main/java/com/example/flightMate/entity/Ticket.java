@@ -2,8 +2,11 @@ package com.example.flightMate.entity;
 
 
 import jakarta.persistence.*;
-
+import lombok.*;
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Ticket {
 
 @Id
